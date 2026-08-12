@@ -18,7 +18,7 @@ spec:
   spec: 
     containers:
     - name: mavenwebappcontainer
-      image: chilukurir/maven-web-app:v3
+      image: chilukurir/mavenwebapp
       imagePullPolicy: Always
       ports:
       - containerPort: 8081
